@@ -1,0 +1,62 @@
+.embla {
+  padding: 1.6rem;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(1rem * -1);
+}
+
+.embla__slide {
+  flex: 0 0 auto;
+  min-width: 300px;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.embla__slide__img {
+  display: block;
+  height: 19rem;
+  object-fit: contain;
+}
+
+.embla__parallax {
+  height: 100%;
+  overflow: hidden;
+}
+
+.embla__parallax__layer {
+  position: relative;
+  height: 100%;
+}
+
+.embla__parallax__img {
+  max-width: none;
+  width: calc(100% + 1rem * 2);
+  margin-left: calc(1rem * -1);
+}
+
+.content-container {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: auto;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  /* bottom: 0; */
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.8s ease-in-out;
+}
+
+.card-content-md {
+  padding: 0;
+  padding-top: 10px;
+}
